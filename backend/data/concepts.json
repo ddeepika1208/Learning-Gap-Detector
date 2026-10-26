@@ -1,17 +1,17 @@
 [
-  {
-    "id": "variables",
-    "name": "Variables and Data Types",
-    "prerequisites": []
-  },
-  {
-    "id": "arrays",
-    "name": "Arrays",
-    "prerequisites": ["variables"]
-  },
-  {
-    "id": "pointers",
-    "name": "Pointers",
-    "prerequisites": ["variables", "arrays"]
-  }
+  {"id": "variables", "name": "Variables and Data Types", "prerequisites": []},
+  {"id": "operators", "name": "Operators and Expressions", "prerequisites": ["variables"]},
+  {"id": "control_flow", "name": "If-Else and Switch", "prerequisites": ["operators"]},
+  {"id": "loops", "name": "Loops", "prerequisites": ["control_flow"]},
+  {"id": "functions", "name": "Functions", "prerequisites": ["control_flow"]},
+  {"id": "arrays", "name": "Arrays", "prerequisites": ["loops"]},
+  {"id": "strings", "name": "Strings", "prerequisites": ["arrays"]},
+  {"id": "pointers", "name": "Pointers", "prerequisites": ["variables", "arrays"]},
+  {"id": "recursion", "name": "Recursion", "prerequisites": ["functions"]},
+  {"id": "structs", "name": "Structures", "prerequisites": ["variables", "arrays"]},
+  {"id": "dynamic_memory", "name": "Dynamic Memory (malloc/free)", "prerequisites": ["pointers"]},
+  {"id": "linked_list", "name": "Linked Lists", "prerequisites": ["structs", "dynamic_memory"]},
+  {"id": "stack_queue", "name": "Stacks and Queues", "prerequisites": ["arrays", "linked_list"]},
+  {"id": "sorting", "name": "Sorting", "prerequisites": ["arrays", "loops"]},
+  {"id": "trees", "name": "Trees", "prerequisites": ["linked_list", "recursion"]}
 ]
