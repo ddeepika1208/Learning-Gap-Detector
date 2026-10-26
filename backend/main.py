@@ -1,3 +1,4 @@
+from mastery import update_mastery, all_mastery
 import random
 import json
 from pathlib import Path
@@ -44,7 +45,9 @@ def submit_answer(a: AnswerIn):
     q = next((x for x in questions if x["id"] == a.question_id), None)
     if q is None:
         raise HTTPException(status_code=404, detail="Question not found")
-    return {
-        "correct": a.selected == q["answer"],
-        "correct_answer": q["answer"],
-    }
+    correct = a.selected == q["answer"]
+    update_mastery(a.student_id, q["concept_id"], correct, q["difficulty"])
+    return {"correct": correct, "correct_answer": q["answer"]}
+@app.get("/mastery")
+def get_mastery_all(student_id: str):
+    return all_mastery(student_id, load_json("concepts.json"))
