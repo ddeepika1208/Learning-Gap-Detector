@@ -8,10 +8,11 @@
     "difficulty": 1
   },
   {
-  "id": "q2",
-  "concept_id": "pointers",
-  "text": "If int x = 10; and int *p = &x; what does *p give?",
-  "options": ["Address of x", "Value of x", "Address of p", "Size of x"],
-  "answer": 1,
-  "difficulty": 2
-}
+    "id": "q2",
+    "concept_id": "pointers",
+    "text": "If int x = 10; and int *p = &x; what does *p give?",
+    "options": ["Address of x", "Value of x", "Address of p", "Size of x"],
+    "answer": 1,
+    "difficulty": 2
+  }
+]
