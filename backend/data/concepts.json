@@ -1,0 +1,17 @@
+[
+  {
+    "id": "variables",
+    "name": "Variables and Data Types",
+    "prerequisites": []
+  },
+  {
+    "id": "arrays",
+    "name": "Arrays",
+    "prerequisites": ["variables"]
+  },
+  {
+    "id": "pointers",
+    "name": "Pointers",
+    "prerequisites": ["variables", "arrays"]
+  }
+]
