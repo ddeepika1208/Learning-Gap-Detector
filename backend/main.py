@@ -1,4 +1,5 @@
-from mastery import update_mastery, all_mastery
+from mastery import update_mastery, all_mastery, get_mastery
+from graph import build_graph, find_weak_root
 import random
 import json
 from pathlib import Path
@@ -47,7 +48,15 @@ def submit_answer(a: AnswerIn):
         raise HTTPException(status_code=404, detail="Question not found")
     correct = a.selected == q["answer"]
     update_mastery(a.student_id, q["concept_id"], correct, q["difficulty"])
-    return {"correct": correct, "correct_answer": q["answer"]}
+    weak = None
+    if not correct:
+        graph = build_graph(load_json("concepts.json"))
+        weak = find_weak_root(a.student_id, q["concept_id"], graph, get_mastery)
+    return {
+        "correct": correct,
+        "correct_answer": q["answer"],
+        "weak_prerequisite": weak,
+    }
 @app.get("/mastery")
 def get_mastery_all(student_id: str):
     return all_mastery(student_id, load_json("concepts.json"))
