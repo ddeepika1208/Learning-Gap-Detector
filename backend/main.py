@@ -10,7 +10,7 @@ from pydantic import BaseModel
 app = FastAPI()
 
 DATA_DIR = Path(__file__).parent / "data"
-
+LAST = {}  # remembers the last question each student got
 def load_json(filename):
     with open(DATA_DIR / filename, encoding="utf-8") as f:
         return json.load(f)
@@ -26,7 +26,23 @@ def get_concepts():
 @app.get("/questions/next")
 def get_next_question(student_id: str):
     questions = load_json("questions.json")
-    q = random.choice(questions)
+    graph = build_graph(load_json("concepts.json"))
+
+    with_questions = {q["concept_id"] for q in questions}
+    target = min(with_questions, key=lambda c: get_mastery(student_id, c))
+
+    weak = find_weak_root(student_id, target, graph, get_mastery)
+    if weak in with_questions:
+        target = weak
+
+    m = get_mastery(student_id, target)
+    wanted = 1 if m < 0.4 else 2 if m < 0.7 else 3
+
+    pool = [q for q in questions if q["concept_id"] == target]
+    fresh = [q for q in pool if q["id"] != LAST.get(student_id)] or pool
+    q = min(fresh, key=lambda x: abs(x["difficulty"] - wanted))
+    LAST[student_id] = q["id"]
+
     return {
         "id": q["id"],
         "concept_id": q["concept_id"],
