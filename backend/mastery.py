@@ -1,3 +1,4 @@
+from sqlalchemy import func
 from db import SessionLocal, Student, Answer, Mastery
 
 START = 0.5
@@ -49,3 +50,28 @@ def all_mastery(student_id, concepts):
         {"concept_id": c["id"], "mastery": saved.get(c["id"], START)}
         for c in concepts
     ]
+
+def list_students(concepts):
+    n = len(concepts)
+    with SessionLocal() as s:
+        counts = dict(
+            s.query(Answer.student_id, func.count(Answer.id))
+            .group_by(Answer.student_id).all()
+        )
+        sums = dict(
+            s.query(Mastery.student_id, func.sum(Mastery.value))
+            .group_by(Mastery.student_id).all()
+        )
+        saved = dict(
+            s.query(Mastery.student_id, func.count(Mastery.concept_id))
+            .group_by(Mastery.student_id).all()
+        )
+    result = []
+    for sid, cnt in counts.items():
+        total = (sums.get(sid) or 0) + START * (n - saved.get(sid, 0))
+        result.append({
+            "student_id": sid,
+            "answers": cnt,
+            "avg_mastery": round(total / n, 3),
+        })
+    return result

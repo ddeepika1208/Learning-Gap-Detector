@@ -1,4 +1,4 @@
-from mastery import update_mastery, all_mastery, get_mastery, record_answer
+from mastery import (update_mastery, all_mastery, get_mastery,record_answer, list_students)
 from graph import build_graph, find_weak_root
 import random
 import json
@@ -89,3 +89,7 @@ def submit_answer(a: AnswerIn):
 @app.get("/mastery")
 def get_mastery_all(student_id: str):
     return all_mastery(student_id, load_json("concepts.json"))
+
+@app.get("/students")
+def get_students():
+    return list_students(load_json("concepts.json"))
