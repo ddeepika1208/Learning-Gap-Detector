@@ -1,4 +1,4 @@
-from mastery import update_mastery, all_mastery, get_mastery
+from mastery import update_mastery, all_mastery, get_mastery, record_answer
 from graph import build_graph, find_weak_root
 import random
 import json
@@ -75,6 +75,7 @@ def submit_answer(a: AnswerIn):
     if q is None:
         raise HTTPException(status_code=404, detail="Question not found")
     correct = a.selected == q["answer"]
+    record_answer(a.student_id, q["id"], q["concept_id"], a.selected, correct)
     update_mastery(a.student_id, q["concept_id"], correct, q["difficulty"])
     weak = None
     if not correct:
