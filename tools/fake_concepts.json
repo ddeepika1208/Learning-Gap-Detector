@@ -1,0 +1,17 @@
+[
+  {"id": "variables", "name": "Variables", "prerequisites": []},
+  {"id": "operators", "name": "Operators", "prerequisites": ["variables"]},
+  {"id": "control_flow", "name": "Control Flow", "prerequisites": ["operators"]},
+  {"id": "loops", "name": "Loops", "prerequisites": ["control_flow"]},
+  {"id": "functions", "name": "Functions", "prerequisites": ["control_flow"]},
+  {"id": "arrays", "name": "Arrays", "prerequisites": ["loops"]},
+  {"id": "strings", "name": "Strings", "prerequisites": ["arrays"]},
+  {"id": "pointers", "name": "Pointers", "prerequisites": ["arrays", "functions"]},
+  {"id": "recursion", "name": "Recursion", "prerequisites": ["functions"]},
+  {"id": "structs", "name": "Structs", "prerequisites": ["variables"]},
+  {"id": "dynamic_memory", "name": "Dynamic Memory", "prerequisites": ["pointers"]},
+  {"id": "linked_list", "name": "Linked List", "prerequisites": ["pointers", "structs", "dynamic_memory"]},
+  {"id": "stack_queue", "name": "Stack and Queue", "prerequisites": ["arrays", "linked_list"]},
+  {"id": "sorting", "name": "Sorting", "prerequisites": ["arrays", "loops"]},
+  {"id": "trees", "name": "Trees", "prerequisites": ["recursion", "linked_list"]}
+]
