@@ -30,3 +30,31 @@ AI helped us draft them. Every one of the 30 questions was reviewed by a human b
 
 It is a map of 15 concepts with arrows from what you must know first to what comes next. It lets the app trace a weak topic back to its root cause, and it shows teachers where learning chains break.
 
+\## Q6. Why not just ask ChatGPT to teach students?
+
+A chat tool does not remember each student's mastery or know our prerequisite map. Ours tracks progress over time, picks questions on purpose, and gives teachers a class-level view. It is a structured system, not a one-off chat.
+
+
+
+\## Q7. What happens when a new student has no data?
+
+They start with a default score on every concept, and the first few questions adjust it quickly. \[CONFIRM STARTING SCORE WITH PERSON 1]
+
+
+
+\## Q8. Is the dashboard showing real data?
+
+We used fake students to build and test the dashboard before the backend was ready. The final dashboard reads real data from our backend. The pilot uses real students.
+
+
+
+\## Q9. Only 30 questions. Is that enough?
+
+For a prototype, yes. It is a small, carefully reviewed bank covering all 15 concepts. The design lets us add more questions without changing the system. We chose quality over quantity.
+
+
+
+\## Q10. Does your pilot prove students learn better?
+
+No, and we say so. With 10-20 students, the pilot measures usability and student feedback, not long-term learning gains. Proving learning gains needs a larger, longer study, which is our future work.
+
