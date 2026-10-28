@@ -6,8 +6,9 @@ from pathlib import Path
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-
+from db import init_db
 app = FastAPI()
+init_db()
 
 app.add_middleware(
     CORSMiddleware,
