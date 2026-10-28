@@ -1,0 +1,1982 @@
+[
+  {
+    "student_id": "s1",
+    "name": "Allison Hill",
+    "mastery": [
+      {
+        "concept_id": "variables",
+        "mastery": 0.57
+      },
+      {
+        "concept_id": "operators",
+        "mastery": 0.62
+      },
+      {
+        "concept_id": "control_flow",
+        "mastery": 0.61
+      },
+      {
+        "concept_id": "loops",
+        "mastery": 0.72
+      },
+      {
+        "concept_id": "functions",
+        "mastery": 0.71
+      },
+      {
+        "concept_id": "arrays",
+        "mastery": 0.75
+      },
+      {
+        "concept_id": "strings",
+        "mastery": 0.59
+      },
+      {
+        "concept_id": "pointers",
+        "mastery": 0.45
+      },
+      {
+        "concept_id": "recursion",
+        "mastery": 0.48
+      },
+      {
+        "concept_id": "structs",
+        "mastery": 0.61
+      },
+      {
+        "concept_id": "dynamic_memory",
+        "mastery": 0.52
+      },
+      {
+        "concept_id": "linked_list",
+        "mastery": 0.33
+      },
+      {
+        "concept_id": "stack_queue",
+        "mastery": 0.61
+      },
+      {
+        "concept_id": "sorting",
+        "mastery": 0.7
+      },
+      {
+        "concept_id": "trees",
+        "mastery": 0.68
+      }
+    ]
+  },
+  {
+    "student_id": "s2",
+    "name": "Noah Rhodes",
+    "mastery": [
+      {
+        "concept_id": "variables",
+        "mastery": 0.48
+      },
+      {
+        "concept_id": "operators",
+        "mastery": 0.52
+      },
+      {
+        "concept_id": "control_flow",
+        "mastery": 0.36
+      },
+      {
+        "concept_id": "loops",
+        "mastery": 0.52
+      },
+      {
+        "concept_id": "functions",
+        "mastery": 0.5
+      },
+      {
+        "concept_id": "arrays",
+        "mastery": 0.43
+      },
+      {
+        "concept_id": "strings",
+        "mastery": 0.39
+      },
+      {
+        "concept_id": "pointers",
+        "mastery": 0.35
+      },
+      {
+        "concept_id": "recursion",
+        "mastery": 0.33
+      },
+      {
+        "concept_id": "structs",
+        "mastery": 0.38
+      },
+      {
+        "concept_id": "dynamic_memory",
+        "mastery": 0.23
+      },
+      {
+        "concept_id": "linked_list",
+        "mastery": 0.28
+      },
+      {
+        "concept_id": "stack_queue",
+        "mastery": 0.48
+      },
+      {
+        "concept_id": "sorting",
+        "mastery": 0.52
+      },
+      {
+        "concept_id": "trees",
+        "mastery": 0.51
+      }
+    ]
+  },
+  {
+    "student_id": "s3",
+    "name": "Angie Henderson",
+    "mastery": [
+      {
+        "concept_id": "variables",
+        "mastery": 0.71
+      },
+      {
+        "concept_id": "operators",
+        "mastery": 0.59
+      },
+      {
+        "concept_id": "control_flow",
+        "mastery": 0.63
+      },
+      {
+        "concept_id": "loops",
+        "mastery": 0.68
+      },
+      {
+        "concept_id": "functions",
+        "mastery": 0.64
+      },
+      {
+        "concept_id": "arrays",
+        "mastery": 0.69
+      },
+      {
+        "concept_id": "strings",
+        "mastery": 0.63
+      },
+      {
+        "concept_id": "pointers",
+        "mastery": 0.46
+      },
+      {
+        "concept_id": "recursion",
+        "mastery": 0.43
+      },
+      {
+        "concept_id": "structs",
+        "mastery": 0.56
+      },
+      {
+        "concept_id": "dynamic_memory",
+        "mastery": 0.43
+      },
+      {
+        "concept_id": "linked_list",
+        "mastery": 0.28
+      },
+      {
+        "concept_id": "stack_queue",
+        "mastery": 0.56
+      },
+      {
+        "concept_id": "sorting",
+        "mastery": 0.54
+      },
+      {
+        "concept_id": "trees",
+        "mastery": 0.57
+      }
+    ]
+  },
+  {
+    "student_id": "s4",
+    "name": "Daniel Wagner",
+    "mastery": [
+      {
+        "concept_id": "variables",
+        "mastery": 0.64
+      },
+      {
+        "concept_id": "operators",
+        "mastery": 0.64
+      },
+      {
+        "concept_id": "control_flow",
+        "mastery": 0.61
+      },
+      {
+        "concept_id": "loops",
+        "mastery": 0.62
+      },
+      {
+        "concept_id": "functions",
+        "mastery": 0.76
+      },
+      {
+        "concept_id": "arrays",
+        "mastery": 0.7
+      },
+      {
+        "concept_id": "strings",
+        "mastery": 0.69
+      },
+      {
+        "concept_id": "pointers",
+        "mastery": 0.4
+      },
+      {
+        "concept_id": "recursion",
+        "mastery": 0.61
+      },
+      {
+        "concept_id": "structs",
+        "mastery": 0.6
+      },
+      {
+        "concept_id": "dynamic_memory",
+        "mastery": 0.49
+      },
+      {
+        "concept_id": "linked_list",
+        "mastery": 0.52
+      },
+      {
+        "concept_id": "stack_queue",
+        "mastery": 0.7
+      },
+      {
+        "concept_id": "sorting",
+        "mastery": 0.68
+      },
+      {
+        "concept_id": "trees",
+        "mastery": 0.7
+      }
+    ]
+  },
+  {
+    "student_id": "s5",
+    "name": "Cristian Santos",
+    "mastery": [
+      {
+        "concept_id": "variables",
+        "mastery": 0.83
+      },
+      {
+        "concept_id": "operators",
+        "mastery": 0.72
+      },
+      {
+        "concept_id": "control_flow",
+        "mastery": 0.68
+      },
+      {
+        "concept_id": "loops",
+        "mastery": 0.73
+      },
+      {
+        "concept_id": "functions",
+        "mastery": 0.72
+      },
+      {
+        "concept_id": "arrays",
+        "mastery": 0.71
+      },
+      {
+        "concept_id": "strings",
+        "mastery": 0.86
+      },
+      {
+        "concept_id": "pointers",
+        "mastery": 0.65
+      },
+      {
+        "concept_id": "recursion",
+        "mastery": 0.63
+      },
+      {
+        "concept_id": "structs",
+        "mastery": 0.8
+      },
+      {
+        "concept_id": "dynamic_memory",
+        "mastery": 0.6
+      },
+      {
+        "concept_id": "linked_list",
+        "mastery": 0.6
+      },
+      {
+        "concept_id": "stack_queue",
+        "mastery": 0.76
+      },
+      {
+        "concept_id": "sorting",
+        "mastery": 0.72
+      },
+      {
+        "concept_id": "trees",
+        "mastery": 0.72
+      }
+    ]
+  },
+  {
+    "student_id": "s6",
+    "name": "Connie Lawrence",
+    "mastery": [
+      {
+        "concept_id": "variables",
+        "mastery": 0.58
+      },
+      {
+        "concept_id": "operators",
+        "mastery": 0.65
+      },
+      {
+        "concept_id": "control_flow",
+        "mastery": 0.71
+      },
+      {
+        "concept_id": "loops",
+        "mastery": 0.61
+      },
+      {
+        "concept_id": "functions",
+        "mastery": 0.57
+      },
+      {
+        "concept_id": "arrays",
+        "mastery": 0.73
+      },
+      {
+        "concept_id": "strings",
+        "mastery": 0.63
+      },
+      {
+        "concept_id": "pointers",
+        "mastery": 0.35
+      },
+      {
+        "concept_id": "recursion",
+        "mastery": 0.44
+      },
+      {
+        "concept_id": "structs",
+        "mastery": 0.55
+      },
+      {
+        "concept_id": "dynamic_memory",
+        "mastery": 0.51
+      },
+      {
+        "concept_id": "linked_list",
+        "mastery": 0.44
+      },
+      {
+        "concept_id": "stack_queue",
+        "mastery": 0.62
+      },
+      {
+        "concept_id": "sorting",
+        "mastery": 0.54
+      },
+      {
+        "concept_id": "trees",
+        "mastery": 0.61
+      }
+    ]
+  },
+  {
+    "student_id": "s7",
+    "name": "Abigail Shaffer",
+    "mastery": [
+      {
+        "concept_id": "variables",
+        "mastery": 0.85
+      },
+      {
+        "concept_id": "operators",
+        "mastery": 0.94
+      },
+      {
+        "concept_id": "control_flow",
+        "mastery": 0.92
+      },
+      {
+        "concept_id": "loops",
+        "mastery": 0.75
+      },
+      {
+        "concept_id": "functions",
+        "mastery": 0.89
+      },
+      {
+        "concept_id": "arrays",
+        "mastery": 0.88
+      },
+      {
+        "concept_id": "strings",
+        "mastery": 0.86
+      },
+      {
+        "concept_id": "pointers",
+        "mastery": 0.6
+      },
+      {
+        "concept_id": "recursion",
+        "mastery": 0.78
+      },
+      {
+        "concept_id": "structs",
+        "mastery": 0.77
+      },
+      {
+        "concept_id": "dynamic_memory",
+        "mastery": 0.69
+      },
+      {
+        "concept_id": "linked_list",
+        "mastery": 0.59
+      },
+      {
+        "concept_id": "stack_queue",
+        "mastery": 0.94
+      },
+      {
+        "concept_id": "sorting",
+        "mastery": 0.92
+      },
+      {
+        "concept_id": "trees",
+        "mastery": 0.8
+      }
+    ]
+  },
+  {
+    "student_id": "s8",
+    "name": "Gina Moore",
+    "mastery": [
+      {
+        "concept_id": "variables",
+        "mastery": 0.54
+      },
+      {
+        "concept_id": "operators",
+        "mastery": 0.68
+      },
+      {
+        "concept_id": "control_flow",
+        "mastery": 0.67
+      },
+      {
+        "concept_id": "loops",
+        "mastery": 0.56
+      },
+      {
+        "concept_id": "functions",
+        "mastery": 0.63
+      },
+      {
+        "concept_id": "arrays",
+        "mastery": 0.62
+      },
+      {
+        "concept_id": "strings",
+        "mastery": 0.53
+      },
+      {
+        "concept_id": "pointers",
+        "mastery": 0.45
+      },
+      {
+        "concept_id": "recursion",
+        "mastery": 0.51
+      },
+      {
+        "concept_id": "structs",
+        "mastery": 0.66
+      },
+      {
+        "concept_id": "dynamic_memory",
+        "mastery": 0.46
+      },
+      {
+        "concept_id": "linked_list",
+        "mastery": 0.25
+      },
+      {
+        "concept_id": "stack_queue",
+        "mastery": 0.57
+      },
+      {
+        "concept_id": "sorting",
+        "mastery": 0.5
+      },
+      {
+        "concept_id": "trees",
+        "mastery": 0.69
+      }
+    ]
+  },
+  {
+    "student_id": "s9",
+    "name": "Gabrielle Davis",
+    "mastery": [
+      {
+        "concept_id": "variables",
+        "mastery": 0.86
+      },
+      {
+        "concept_id": "operators",
+        "mastery": 0.75
+      },
+      {
+        "concept_id": "control_flow",
+        "mastery": 0.7
+      },
+      {
+        "concept_id": "loops",
+        "mastery": 0.86
+      },
+      {
+        "concept_id": "functions",
+        "mastery": 0.88
+      },
+      {
+        "concept_id": "arrays",
+        "mastery": 0.71
+      },
+      {
+        "concept_id": "strings",
+        "mastery": 0.79
+      },
+      {
+        "concept_id": "pointers",
+        "mastery": 0.5
+      },
+      {
+        "concept_id": "recursion",
+        "mastery": 0.74
+      },
+      {
+        "concept_id": "structs",
+        "mastery": 0.84
+      },
+      {
+        "concept_id": "dynamic_memory",
+        "mastery": 0.57
+      },
+      {
+        "concept_id": "linked_list",
+        "mastery": 0.53
+      },
+      {
+        "concept_id": "stack_queue",
+        "mastery": 0.8
+      },
+      {
+        "concept_id": "sorting",
+        "mastery": 0.74
+      },
+      {
+        "concept_id": "trees",
+        "mastery": 0.86
+      }
+    ]
+  },
+  {
+    "student_id": "s10",
+    "name": "Ryan Munoz",
+    "mastery": [
+      {
+        "concept_id": "variables",
+        "mastery": 0.5
+      },
+      {
+        "concept_id": "operators",
+        "mastery": 0.57
+      },
+      {
+        "concept_id": "control_flow",
+        "mastery": 0.61
+      },
+      {
+        "concept_id": "loops",
+        "mastery": 0.5
+      },
+      {
+        "concept_id": "functions",
+        "mastery": 0.52
+      },
+      {
+        "concept_id": "arrays",
+        "mastery": 0.66
+      },
+      {
+        "concept_id": "strings",
+        "mastery": 0.59
+      },
+      {
+        "concept_id": "pointers",
+        "mastery": 0.35
+      },
+      {
+        "concept_id": "recursion",
+        "mastery": 0.47
+      },
+      {
+        "concept_id": "structs",
+        "mastery": 0.49
+      },
+      {
+        "concept_id": "dynamic_memory",
+        "mastery": 0.36
+      },
+      {
+        "concept_id": "linked_list",
+        "mastery": 0.28
+      },
+      {
+        "concept_id": "stack_queue",
+        "mastery": 0.58
+      },
+      {
+        "concept_id": "sorting",
+        "mastery": 0.51
+      },
+      {
+        "concept_id": "trees",
+        "mastery": 0.51
+      }
+    ]
+  },
+  {
+    "student_id": "s11",
+    "name": "Monica Herrera",
+    "mastery": [
+      {
+        "concept_id": "variables",
+        "mastery": 0.41
+      },
+      {
+        "concept_id": "operators",
+        "mastery": 0.33
+      },
+      {
+        "concept_id": "control_flow",
+        "mastery": 0.47
+      },
+      {
+        "concept_id": "loops",
+        "mastery": 0.46
+      },
+      {
+        "concept_id": "functions",
+        "mastery": 0.3
+      },
+      {
+        "concept_id": "arrays",
+        "mastery": 0.33
+      },
+      {
+        "concept_id": "strings",
+        "mastery": 0.42
+      },
+      {
+        "concept_id": "pointers",
+        "mastery": 0.13
+      },
+      {
+        "concept_id": "recursion",
+        "mastery": 0.21
+      },
+      {
+        "concept_id": "structs",
+        "mastery": 0.47
+      },
+      {
+        "concept_id": "dynamic_memory",
+        "mastery": 0.25
+      },
+      {
+        "concept_id": "linked_list",
+        "mastery": 0.13
+      },
+      {
+        "concept_id": "stack_queue",
+        "mastery": 0.44
+      },
+      {
+        "concept_id": "sorting",
+        "mastery": 0.45
+      },
+      {
+        "concept_id": "trees",
+        "mastery": 0.32
+      }
+    ]
+  },
+  {
+    "student_id": "s12",
+    "name": "Jamie Arnold",
+    "mastery": [
+      {
+        "concept_id": "variables",
+        "mastery": 0.38
+      },
+      {
+        "concept_id": "operators",
+        "mastery": 0.38
+      },
+      {
+        "concept_id": "control_flow",
+        "mastery": 0.39
+      },
+      {
+        "concept_id": "loops",
+        "mastery": 0.44
+      },
+      {
+        "concept_id": "functions",
+        "mastery": 0.43
+      },
+      {
+        "concept_id": "arrays",
+        "mastery": 0.5
+      },
+      {
+        "concept_id": "strings",
+        "mastery": 0.32
+      },
+      {
+        "concept_id": "pointers",
+        "mastery": 0.18
+      },
+      {
+        "concept_id": "recursion",
+        "mastery": 0.27
+      },
+      {
+        "concept_id": "structs",
+        "mastery": 0.47
+      },
+      {
+        "concept_id": "dynamic_memory",
+        "mastery": 0.2
+      },
+      {
+        "concept_id": "linked_list",
+        "mastery": 0.09
+      },
+      {
+        "concept_id": "stack_queue",
+        "mastery": 0.39
+      },
+      {
+        "concept_id": "sorting",
+        "mastery": 0.38
+      },
+      {
+        "concept_id": "trees",
+        "mastery": 0.35
+      }
+    ]
+  },
+  {
+    "student_id": "s13",
+    "name": "Lisa Hensley",
+    "mastery": [
+      {
+        "concept_id": "variables",
+        "mastery": 0.56
+      },
+      {
+        "concept_id": "operators",
+        "mastery": 0.46
+      },
+      {
+        "concept_id": "control_flow",
+        "mastery": 0.55
+      },
+      {
+        "concept_id": "loops",
+        "mastery": 0.48
+      },
+      {
+        "concept_id": "functions",
+        "mastery": 0.39
+      },
+      {
+        "concept_id": "arrays",
+        "mastery": 0.57
+      },
+      {
+        "concept_id": "strings",
+        "mastery": 0.54
+      },
+      {
+        "concept_id": "pointers",
+        "mastery": 0.37
+      },
+      {
+        "concept_id": "recursion",
+        "mastery": 0.46
+      },
+      {
+        "concept_id": "structs",
+        "mastery": 0.54
+      },
+      {
+        "concept_id": "dynamic_memory",
+        "mastery": 0.26
+      },
+      {
+        "concept_id": "linked_list",
+        "mastery": 0.22
+      },
+      {
+        "concept_id": "stack_queue",
+        "mastery": 0.42
+      },
+      {
+        "concept_id": "sorting",
+        "mastery": 0.46
+      },
+      {
+        "concept_id": "trees",
+        "mastery": 0.39
+      }
+    ]
+  },
+  {
+    "student_id": "s14",
+    "name": "Michele Williams",
+    "mastery": [
+      {
+        "concept_id": "variables",
+        "mastery": 0.64
+      },
+      {
+        "concept_id": "operators",
+        "mastery": 0.49
+      },
+      {
+        "concept_id": "control_flow",
+        "mastery": 0.6
+      },
+      {
+        "concept_id": "loops",
+        "mastery": 0.53
+      },
+      {
+        "concept_id": "functions",
+        "mastery": 0.52
+      },
+      {
+        "concept_id": "arrays",
+        "mastery": 0.63
+      },
+      {
+        "concept_id": "strings",
+        "mastery": 0.64
+      },
+      {
+        "concept_id": "pointers",
+        "mastery": 0.35
+      },
+      {
+        "concept_id": "recursion",
+        "mastery": 0.48
+      },
+      {
+        "concept_id": "structs",
+        "mastery": 0.47
+      },
+      {
+        "concept_id": "dynamic_memory",
+        "mastery": 0.35
+      },
+      {
+        "concept_id": "linked_list",
+        "mastery": 0.38
+      },
+      {
+        "concept_id": "stack_queue",
+        "mastery": 0.56
+      },
+      {
+        "concept_id": "sorting",
+        "mastery": 0.55
+      },
+      {
+        "concept_id": "trees",
+        "mastery": 0.59
+      }
+    ]
+  },
+  {
+    "student_id": "s15",
+    "name": "Dylan Miller",
+    "mastery": [
+      {
+        "concept_id": "variables",
+        "mastery": 0.4
+      },
+      {
+        "concept_id": "operators",
+        "mastery": 0.38
+      },
+      {
+        "concept_id": "control_flow",
+        "mastery": 0.45
+      },
+      {
+        "concept_id": "loops",
+        "mastery": 0.31
+      },
+      {
+        "concept_id": "functions",
+        "mastery": 0.47
+      },
+      {
+        "concept_id": "arrays",
+        "mastery": 0.29
+      },
+      {
+        "concept_id": "strings",
+        "mastery": 0.32
+      },
+      {
+        "concept_id": "pointers",
+        "mastery": 0.2
+      },
+      {
+        "concept_id": "recursion",
+        "mastery": 0.31
+      },
+      {
+        "concept_id": "structs",
+        "mastery": 0.33
+      },
+      {
+        "concept_id": "dynamic_memory",
+        "mastery": 0.15
+      },
+      {
+        "concept_id": "linked_list",
+        "mastery": 0.21
+      },
+      {
+        "concept_id": "stack_queue",
+        "mastery": 0.33
+      },
+      {
+        "concept_id": "sorting",
+        "mastery": 0.4
+      },
+      {
+        "concept_id": "trees",
+        "mastery": 0.4
+      }
+    ]
+  },
+  {
+    "student_id": "s16",
+    "name": "Brian Ramirez",
+    "mastery": [
+      {
+        "concept_id": "variables",
+        "mastery": 0.58
+      },
+      {
+        "concept_id": "operators",
+        "mastery": 0.56
+      },
+      {
+        "concept_id": "control_flow",
+        "mastery": 0.65
+      },
+      {
+        "concept_id": "loops",
+        "mastery": 0.5
+      },
+      {
+        "concept_id": "functions",
+        "mastery": 0.6
+      },
+      {
+        "concept_id": "arrays",
+        "mastery": 0.51
+      },
+      {
+        "concept_id": "strings",
+        "mastery": 0.54
+      },
+      {
+        "concept_id": "pointers",
+        "mastery": 0.39
+      },
+      {
+        "concept_id": "recursion",
+        "mastery": 0.42
+      },
+      {
+        "concept_id": "structs",
+        "mastery": 0.52
+      },
+      {
+        "concept_id": "dynamic_memory",
+        "mastery": 0.46
+      },
+      {
+        "concept_id": "linked_list",
+        "mastery": 0.22
+      },
+      {
+        "concept_id": "stack_queue",
+        "mastery": 0.55
+      },
+      {
+        "concept_id": "sorting",
+        "mastery": 0.66
+      },
+      {
+        "concept_id": "trees",
+        "mastery": 0.66
+      }
+    ]
+  },
+  {
+    "student_id": "s17",
+    "name": "Holly Wood",
+    "mastery": [
+      {
+        "concept_id": "variables",
+        "mastery": 0.33
+      },
+      {
+        "concept_id": "operators",
+        "mastery": 0.34
+      },
+      {
+        "concept_id": "control_flow",
+        "mastery": 0.47
+      },
+      {
+        "concept_id": "loops",
+        "mastery": 0.46
+      },
+      {
+        "concept_id": "functions",
+        "mastery": 0.46
+      },
+      {
+        "concept_id": "arrays",
+        "mastery": 0.36
+      },
+      {
+        "concept_id": "strings",
+        "mastery": 0.32
+      },
+      {
+        "concept_id": "pointers",
+        "mastery": 0.25
+      },
+      {
+        "concept_id": "recursion",
+        "mastery": 0.33
+      },
+      {
+        "concept_id": "structs",
+        "mastery": 0.41
+      },
+      {
+        "concept_id": "dynamic_memory",
+        "mastery": 0.33
+      },
+      {
+        "concept_id": "linked_list",
+        "mastery": 0.17
+      },
+      {
+        "concept_id": "stack_queue",
+        "mastery": 0.29
+      },
+      {
+        "concept_id": "sorting",
+        "mastery": 0.45
+      },
+      {
+        "concept_id": "trees",
+        "mastery": 0.35
+      }
+    ]
+  },
+  {
+    "student_id": "s18",
+    "name": "Derek Zuniga",
+    "mastery": [
+      {
+        "concept_id": "variables",
+        "mastery": 0.77
+      },
+      {
+        "concept_id": "operators",
+        "mastery": 0.61
+      },
+      {
+        "concept_id": "control_flow",
+        "mastery": 0.6
+      },
+      {
+        "concept_id": "loops",
+        "mastery": 0.6
+      },
+      {
+        "concept_id": "functions",
+        "mastery": 0.69
+      },
+      {
+        "concept_id": "arrays",
+        "mastery": 0.64
+      },
+      {
+        "concept_id": "strings",
+        "mastery": 0.7
+      },
+      {
+        "concept_id": "pointers",
+        "mastery": 0.53
+      },
+      {
+        "concept_id": "recursion",
+        "mastery": 0.52
+      },
+      {
+        "concept_id": "structs",
+        "mastery": 0.71
+      },
+      {
+        "concept_id": "dynamic_memory",
+        "mastery": 0.48
+      },
+      {
+        "concept_id": "linked_list",
+        "mastery": 0.43
+      },
+      {
+        "concept_id": "stack_queue",
+        "mastery": 0.76
+      },
+      {
+        "concept_id": "sorting",
+        "mastery": 0.75
+      },
+      {
+        "concept_id": "trees",
+        "mastery": 0.6
+      }
+    ]
+  },
+  {
+    "student_id": "s19",
+    "name": "Lisa Jackson",
+    "mastery": [
+      {
+        "concept_id": "variables",
+        "mastery": 0.52
+      },
+      {
+        "concept_id": "operators",
+        "mastery": 0.46
+      },
+      {
+        "concept_id": "control_flow",
+        "mastery": 0.62
+      },
+      {
+        "concept_id": "loops",
+        "mastery": 0.59
+      },
+      {
+        "concept_id": "functions",
+        "mastery": 0.51
+      },
+      {
+        "concept_id": "arrays",
+        "mastery": 0.61
+      },
+      {
+        "concept_id": "strings",
+        "mastery": 0.57
+      },
+      {
+        "concept_id": "pointers",
+        "mastery": 0.35
+      },
+      {
+        "concept_id": "recursion",
+        "mastery": 0.36
+      },
+      {
+        "concept_id": "structs",
+        "mastery": 0.48
+      },
+      {
+        "concept_id": "dynamic_memory",
+        "mastery": 0.49
+      },
+      {
+        "concept_id": "linked_list",
+        "mastery": 0.39
+      },
+      {
+        "concept_id": "stack_queue",
+        "mastery": 0.57
+      },
+      {
+        "concept_id": "sorting",
+        "mastery": 0.63
+      },
+      {
+        "concept_id": "trees",
+        "mastery": 0.58
+      }
+    ]
+  },
+  {
+    "student_id": "s20",
+    "name": "Carla Gray",
+    "mastery": [
+      {
+        "concept_id": "variables",
+        "mastery": 0.35
+      },
+      {
+        "concept_id": "operators",
+        "mastery": 0.39
+      },
+      {
+        "concept_id": "control_flow",
+        "mastery": 0.5
+      },
+      {
+        "concept_id": "loops",
+        "mastery": 0.48
+      },
+      {
+        "concept_id": "functions",
+        "mastery": 0.5
+      },
+      {
+        "concept_id": "arrays",
+        "mastery": 0.5
+      },
+      {
+        "concept_id": "strings",
+        "mastery": 0.37
+      },
+      {
+        "concept_id": "pointers",
+        "mastery": 0.17
+      },
+      {
+        "concept_id": "recursion",
+        "mastery": 0.24
+      },
+      {
+        "concept_id": "structs",
+        "mastery": 0.48
+      },
+      {
+        "concept_id": "dynamic_memory",
+        "mastery": 0.35
+      },
+      {
+        "concept_id": "linked_list",
+        "mastery": 0.16
+      },
+      {
+        "concept_id": "stack_queue",
+        "mastery": 0.45
+      },
+      {
+        "concept_id": "sorting",
+        "mastery": 0.35
+      },
+      {
+        "concept_id": "trees",
+        "mastery": 0.51
+      }
+    ]
+  },
+  {
+    "student_id": "s21",
+    "name": "Margaret Hawkins DDS",
+    "mastery": [
+      {
+        "concept_id": "variables",
+        "mastery": 0.88
+      },
+      {
+        "concept_id": "operators",
+        "mastery": 0.84
+      },
+      {
+        "concept_id": "control_flow",
+        "mastery": 0.86
+      },
+      {
+        "concept_id": "loops",
+        "mastery": 0.69
+      },
+      {
+        "concept_id": "functions",
+        "mastery": 0.83
+      },
+      {
+        "concept_id": "arrays",
+        "mastery": 0.75
+      },
+      {
+        "concept_id": "strings",
+        "mastery": 0.87
+      },
+      {
+        "concept_id": "pointers",
+        "mastery": 0.64
+      },
+      {
+        "concept_id": "recursion",
+        "mastery": 0.76
+      },
+      {
+        "concept_id": "structs",
+        "mastery": 0.84
+      },
+      {
+        "concept_id": "dynamic_memory",
+        "mastery": 0.59
+      },
+      {
+        "concept_id": "linked_list",
+        "mastery": 0.59
+      },
+      {
+        "concept_id": "stack_queue",
+        "mastery": 0.7
+      },
+      {
+        "concept_id": "sorting",
+        "mastery": 0.86
+      },
+      {
+        "concept_id": "trees",
+        "mastery": 0.85
+      }
+    ]
+  },
+  {
+    "student_id": "s22",
+    "name": "Patty Perez",
+    "mastery": [
+      {
+        "concept_id": "variables",
+        "mastery": 0.52
+      },
+      {
+        "concept_id": "operators",
+        "mastery": 0.45
+      },
+      {
+        "concept_id": "control_flow",
+        "mastery": 0.42
+      },
+      {
+        "concept_id": "loops",
+        "mastery": 0.52
+      },
+      {
+        "concept_id": "functions",
+        "mastery": 0.41
+      },
+      {
+        "concept_id": "arrays",
+        "mastery": 0.37
+      },
+      {
+        "concept_id": "strings",
+        "mastery": 0.4
+      },
+      {
+        "concept_id": "pointers",
+        "mastery": 0.23
+      },
+      {
+        "concept_id": "recursion",
+        "mastery": 0.43
+      },
+      {
+        "concept_id": "structs",
+        "mastery": 0.55
+      },
+      {
+        "concept_id": "dynamic_memory",
+        "mastery": 0.27
+      },
+      {
+        "concept_id": "linked_list",
+        "mastery": 0.24
+      },
+      {
+        "concept_id": "stack_queue",
+        "mastery": 0.44
+      },
+      {
+        "concept_id": "sorting",
+        "mastery": 0.56
+      },
+      {
+        "concept_id": "trees",
+        "mastery": 0.47
+      }
+    ]
+  },
+  {
+    "student_id": "s23",
+    "name": "Ethan Adams",
+    "mastery": [
+      {
+        "concept_id": "variables",
+        "mastery": 0.74
+      },
+      {
+        "concept_id": "operators",
+        "mastery": 0.91
+      },
+      {
+        "concept_id": "control_flow",
+        "mastery": 0.76
+      },
+      {
+        "concept_id": "loops",
+        "mastery": 0.91
+      },
+      {
+        "concept_id": "functions",
+        "mastery": 0.77
+      },
+      {
+        "concept_id": "arrays",
+        "mastery": 0.74
+      },
+      {
+        "concept_id": "strings",
+        "mastery": 0.81
+      },
+      {
+        "concept_id": "pointers",
+        "mastery": 0.67
+      },
+      {
+        "concept_id": "recursion",
+        "mastery": 0.68
+      },
+      {
+        "concept_id": "structs",
+        "mastery": 0.84
+      },
+      {
+        "concept_id": "dynamic_memory",
+        "mastery": 0.67
+      },
+      {
+        "concept_id": "linked_list",
+        "mastery": 0.55
+      },
+      {
+        "concept_id": "stack_queue",
+        "mastery": 0.83
+      },
+      {
+        "concept_id": "sorting",
+        "mastery": 0.77
+      },
+      {
+        "concept_id": "trees",
+        "mastery": 0.86
+      }
+    ]
+  },
+  {
+    "student_id": "s24",
+    "name": "Tommy Walter",
+    "mastery": [
+      {
+        "concept_id": "variables",
+        "mastery": 0.44
+      },
+      {
+        "concept_id": "operators",
+        "mastery": 0.36
+      },
+      {
+        "concept_id": "control_flow",
+        "mastery": 0.39
+      },
+      {
+        "concept_id": "loops",
+        "mastery": 0.4
+      },
+      {
+        "concept_id": "functions",
+        "mastery": 0.38
+      },
+      {
+        "concept_id": "arrays",
+        "mastery": 0.32
+      },
+      {
+        "concept_id": "strings",
+        "mastery": 0.26
+      },
+      {
+        "concept_id": "pointers",
+        "mastery": 0.18
+      },
+      {
+        "concept_id": "recursion",
+        "mastery": 0.22
+      },
+      {
+        "concept_id": "structs",
+        "mastery": 0.31
+      },
+      {
+        "concept_id": "dynamic_memory",
+        "mastery": 0.27
+      },
+      {
+        "concept_id": "linked_list",
+        "mastery": 0.14
+      },
+      {
+        "concept_id": "stack_queue",
+        "mastery": 0.31
+      },
+      {
+        "concept_id": "sorting",
+        "mastery": 0.31
+      },
+      {
+        "concept_id": "trees",
+        "mastery": 0.33
+      }
+    ]
+  },
+  {
+    "student_id": "s25",
+    "name": "Matthew Foster",
+    "mastery": [
+      {
+        "concept_id": "variables",
+        "mastery": 0.51
+      },
+      {
+        "concept_id": "operators",
+        "mastery": 0.48
+      },
+      {
+        "concept_id": "control_flow",
+        "mastery": 0.54
+      },
+      {
+        "concept_id": "loops",
+        "mastery": 0.64
+      },
+      {
+        "concept_id": "functions",
+        "mastery": 0.59
+      },
+      {
+        "concept_id": "arrays",
+        "mastery": 0.63
+      },
+      {
+        "concept_id": "strings",
+        "mastery": 0.57
+      },
+      {
+        "concept_id": "pointers",
+        "mastery": 0.31
+      },
+      {
+        "concept_id": "recursion",
+        "mastery": 0.46
+      },
+      {
+        "concept_id": "structs",
+        "mastery": 0.45
+      },
+      {
+        "concept_id": "dynamic_memory",
+        "mastery": 0.36
+      },
+      {
+        "concept_id": "linked_list",
+        "mastery": 0.29
+      },
+      {
+        "concept_id": "stack_queue",
+        "mastery": 0.57
+      },
+      {
+        "concept_id": "sorting",
+        "mastery": 0.58
+      },
+      {
+        "concept_id": "trees",
+        "mastery": 0.54
+      }
+    ]
+  },
+  {
+    "student_id": "s26",
+    "name": "Judy Baker",
+    "mastery": [
+      {
+        "concept_id": "variables",
+        "mastery": 0.51
+      },
+      {
+        "concept_id": "operators",
+        "mastery": 0.57
+      },
+      {
+        "concept_id": "control_flow",
+        "mastery": 0.65
+      },
+      {
+        "concept_id": "loops",
+        "mastery": 0.63
+      },
+      {
+        "concept_id": "functions",
+        "mastery": 0.51
+      },
+      {
+        "concept_id": "arrays",
+        "mastery": 0.49
+      },
+      {
+        "concept_id": "strings",
+        "mastery": 0.57
+      },
+      {
+        "concept_id": "pointers",
+        "mastery": 0.4
+      },
+      {
+        "concept_id": "recursion",
+        "mastery": 0.44
+      },
+      {
+        "concept_id": "structs",
+        "mastery": 0.63
+      },
+      {
+        "concept_id": "dynamic_memory",
+        "mastery": 0.47
+      },
+      {
+        "concept_id": "linked_list",
+        "mastery": 0.36
+      },
+      {
+        "concept_id": "stack_queue",
+        "mastery": 0.52
+      },
+      {
+        "concept_id": "sorting",
+        "mastery": 0.51
+      },
+      {
+        "concept_id": "trees",
+        "mastery": 0.48
+      }
+    ]
+  },
+  {
+    "student_id": "s27",
+    "name": "Justin Baker",
+    "mastery": [
+      {
+        "concept_id": "variables",
+        "mastery": 0.47
+      },
+      {
+        "concept_id": "operators",
+        "mastery": 0.54
+      },
+      {
+        "concept_id": "control_flow",
+        "mastery": 0.39
+      },
+      {
+        "concept_id": "loops",
+        "mastery": 0.46
+      },
+      {
+        "concept_id": "functions",
+        "mastery": 0.5
+      },
+      {
+        "concept_id": "arrays",
+        "mastery": 0.41
+      },
+      {
+        "concept_id": "strings",
+        "mastery": 0.51
+      },
+      {
+        "concept_id": "pointers",
+        "mastery": 0.27
+      },
+      {
+        "concept_id": "recursion",
+        "mastery": 0.32
+      },
+      {
+        "concept_id": "structs",
+        "mastery": 0.5
+      },
+      {
+        "concept_id": "dynamic_memory",
+        "mastery": 0.22
+      },
+      {
+        "concept_id": "linked_list",
+        "mastery": 0.27
+      },
+      {
+        "concept_id": "stack_queue",
+        "mastery": 0.53
+      },
+      {
+        "concept_id": "sorting",
+        "mastery": 0.39
+      },
+      {
+        "concept_id": "trees",
+        "mastery": 0.46
+      }
+    ]
+  },
+  {
+    "student_id": "s28",
+    "name": "Stephanie Ross",
+    "mastery": [
+      {
+        "concept_id": "variables",
+        "mastery": 0.53
+      },
+      {
+        "concept_id": "operators",
+        "mastery": 0.44
+      },
+      {
+        "concept_id": "control_flow",
+        "mastery": 0.35
+      },
+      {
+        "concept_id": "loops",
+        "mastery": 0.39
+      },
+      {
+        "concept_id": "functions",
+        "mastery": 0.51
+      },
+      {
+        "concept_id": "arrays",
+        "mastery": 0.43
+      },
+      {
+        "concept_id": "strings",
+        "mastery": 0.5
+      },
+      {
+        "concept_id": "pointers",
+        "mastery": 0.27
+      },
+      {
+        "concept_id": "recursion",
+        "mastery": 0.44
+      },
+      {
+        "concept_id": "structs",
+        "mastery": 0.46
+      },
+      {
+        "concept_id": "dynamic_memory",
+        "mastery": 0.38
+      },
+      {
+        "concept_id": "linked_list",
+        "mastery": 0.27
+      },
+      {
+        "concept_id": "stack_queue",
+        "mastery": 0.46
+      },
+      {
+        "concept_id": "sorting",
+        "mastery": 0.48
+      },
+      {
+        "concept_id": "trees",
+        "mastery": 0.44
+      }
+    ]
+  },
+  {
+    "student_id": "s29",
+    "name": "Zachary Hicks",
+    "mastery": [
+      {
+        "concept_id": "variables",
+        "mastery": 0.77
+      },
+      {
+        "concept_id": "operators",
+        "mastery": 0.84
+      },
+      {
+        "concept_id": "control_flow",
+        "mastery": 0.81
+      },
+      {
+        "concept_id": "loops",
+        "mastery": 0.76
+      },
+      {
+        "concept_id": "functions",
+        "mastery": 0.72
+      },
+      {
+        "concept_id": "arrays",
+        "mastery": 0.71
+      },
+      {
+        "concept_id": "strings",
+        "mastery": 0.79
+      },
+      {
+        "concept_id": "pointers",
+        "mastery": 0.62
+      },
+      {
+        "concept_id": "recursion",
+        "mastery": 0.67
+      },
+      {
+        "concept_id": "structs",
+        "mastery": 0.79
+      },
+      {
+        "concept_id": "dynamic_memory",
+        "mastery": 0.57
+      },
+      {
+        "concept_id": "linked_list",
+        "mastery": 0.43
+      },
+      {
+        "concept_id": "stack_queue",
+        "mastery": 0.72
+      },
+      {
+        "concept_id": "sorting",
+        "mastery": 0.72
+      },
+      {
+        "concept_id": "trees",
+        "mastery": 0.73
+      }
+    ]
+  },
+  {
+    "student_id": "s30",
+    "name": "Anthony Rodriguez",
+    "mastery": [
+      {
+        "concept_id": "variables",
+        "mastery": 0.55
+      },
+      {
+        "concept_id": "operators",
+        "mastery": 0.57
+      },
+      {
+        "concept_id": "control_flow",
+        "mastery": 0.66
+      },
+      {
+        "concept_id": "loops",
+        "mastery": 0.66
+      },
+      {
+        "concept_id": "functions",
+        "mastery": 0.53
+      },
+      {
+        "concept_id": "arrays",
+        "mastery": 0.6
+      },
+      {
+        "concept_id": "strings",
+        "mastery": 0.63
+      },
+      {
+        "concept_id": "pointers",
+        "mastery": 0.4
+      },
+      {
+        "concept_id": "recursion",
+        "mastery": 0.46
+      },
+      {
+        "concept_id": "structs",
+        "mastery": 0.6
+      },
+      {
+        "concept_id": "dynamic_memory",
+        "mastery": 0.55
+      },
+      {
+        "concept_id": "linked_list",
+        "mastery": 0.39
+      },
+      {
+        "concept_id": "stack_queue",
+        "mastery": 0.66
+      },
+      {
+        "concept_id": "sorting",
+        "mastery": 0.69
+      },
+      {
+        "concept_id": "trees",
+        "mastery": 0.67
+      }
+    ]
+  }
+]
