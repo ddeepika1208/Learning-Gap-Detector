@@ -1,3 +1,5 @@
+from dotenv import load_dotenv
+load_dotenv()
 import os
 from datetime import datetime, timezone
 from sqlalchemy import (create_engine, Column, String, Integer,
