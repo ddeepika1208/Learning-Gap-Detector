@@ -58,3 +58,31 @@ For a prototype, yes. It is a small, carefully reviewed bank covering all 15 con
 
 No, and we say so. With 10-20 students, the pilot measures usability and student feedback, not long-term learning gains. Proving learning gains needs a larger, longer study, which is our future work.
 
+\## Q11. How do you handle students who guess answers?
+
+A guess can raise a score by luck, so one answer should never move mastery too far. Scores shift gradually over many questions, so lucky guesses fade out. \[CONFIRM WITH PERSON 1 HOW THE MODEL HANDLES GUESSING]
+
+
+
+\## Q12. What AI did you use, and where?
+
+AI helped us draft questions and speed up coding. The mastery model and question selection are our own logic, and humans reviewed every question. We are open about this, and the review step is part of the design.
+
+
+
+\## Q13. What are the limits of your system?
+
+It covers only 15 concepts and 30 questions, and it is tested with a small group. It does not grade code. These limits are why we call it a prototype with a clear path to grow.
+
+
+
+\## Q14. How would a teacher actually use this?
+
+The teacher opens the dashboard and sees the weakest concepts for the whole class and which students need help. They can click a student to see their mastery. Then they spend class time on the real gaps.
+
+
+
+\## Q15. What would you build next?
+
+More questions per concept, support for other subjects, code-based questions, and a larger study to measure learning gains. The graph and mastery design lets us add these without rebuilding.
+
