@@ -75,3 +75,32 @@ def list_students(concepts):
             "avg_mastery": round(total / n, 3),
         })
     return result
+
+def class_summary(concepts):
+    students = list_students(concepts)
+    with SessionLocal() as s:
+        rows = s.query(Mastery).all()
+    by_concept = {}
+    for r in rows:
+        by_concept.setdefault(r.concept_id, {})[r.student_id] = r.value
+    n_students = len(students)
+
+    items = []
+    for c in concepts:
+        scores = by_concept.get(c["id"], {})
+        total = sum(scores.values()) + START * (n_students - len(scores))
+        avg = round(total / n_students, 3) if n_students else START
+        items.append({"concept_id": c["id"], "name": c["name"],
+                      "avg_mastery": avg})
+
+    weakest = sorted(items, key=lambda x: x["avg_mastery"])[:3]
+    needing_help = [
+        {"student_id": st["student_id"], "avg_mastery": st["avg_mastery"]}
+        for st in students if st["avg_mastery"] < 0.4
+    ]
+    return {
+        "student_count": n_students,
+        "concepts": items,
+        "weakest_concepts": weakest,
+        "students_needing_help": needing_help,
+    }
