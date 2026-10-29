@@ -10,9 +10,7 @@ A normal quiz gives the same questions to everyone and only shows a score. Ours 
 
 \## Q2. How is mastery calculated?
 
-Each student has a score from 0 to 1 for each of the 15 concepts. A correct answer raises that concept's score and a wrong answer lowers it. \[CONFIRM EXACT FORMULA WITH PERSON 1]
-
-
+Each student has a score from 0 to 1 for each concept. After every answer, the score moves toward 1 if correct, or toward 0 if wrong. The formula is: new = old + rate × (target − old). Harder questions move the score more than easy ones, with the rate from 0.15 (easy) to 0.25 (hard).
 
 \## Q3. How does the app pick the next question?
 
