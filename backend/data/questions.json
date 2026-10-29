@@ -2204,12 +2204,11 @@
     "text": "What is the result of compiling the following C code?\n\nint a = 12;\nint *p = &a;\nint pp = &p;\npp = 25;\nprintf(\"%d\", *p);",
     "options": [
       "It prints the address of a",
-      "It prints 12",
       "It prints the address of p",
       "It prints 25",
       "A diagnostic is required because &p has type int ** but pp has type int"
     ],
-    "answer": 4,
+    "answer": 3,
     "difficulty": 2
   },
   {
